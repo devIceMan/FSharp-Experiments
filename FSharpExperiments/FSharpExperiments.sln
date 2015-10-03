@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChessData", "ChessData\ChessData.fsproj", "{97C2AA4E-B305-4362-9851-251E03D4731B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChessPgn", "ChessPgn", "{FE32C282-E182-4DCA-825C-6E9D4C725CD9}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorldChampionships", "WorldChampionships", "{6F63215F-C2A2-4D05-9CED-8FF726645CC6}"
 	ProjectSection(SolutionItems) = preProject
