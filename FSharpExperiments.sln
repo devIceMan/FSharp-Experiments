@@ -105,6 +105,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorldChampionships", "World
 		ChessPgn\WorldChampionships\ZBSTCHES.pgn = ChessPgn\WorldChampionships\ZBSTCHES.pgn
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{378A12D1-267B-4335-B2D3-00232DC26642}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,6 +129,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{FE32C282-E182-4DCA-825C-6E9D4C725CD9} = {378A12D1-267B-4335-B2D3-00232DC26642}
 		{6F63215F-C2A2-4D05-9CED-8FF726645CC6} = {FE32C282-E182-4DCA-825C-6E9D4C725CD9}
 	EndGlobalSection
 EndGlobal
